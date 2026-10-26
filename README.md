@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/beeplovsharma/beeplovsharma/output/gravity.svg" width="100%" alt="Beeplov Sharma contribution graph falling under gravity" />
+<img src="https://raw.githubusercontent.com/WannaCryLater/WannaCryLater/output/gravity.svg" width="100%" alt="Beeplov Sharma contribution graph falling under gravity" />
 
 <table>
 <tr>
@@ -17,7 +17,7 @@ Building products, solving engineering problems, and making web applications fas
 </td>
 <td width="300" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/beeplovsharma/beeplovsharma/main/output/bonsai-growth.gif" width="280" alt="git-bonsai grown from my commit history" />
+<img src="https://raw.githubusercontent.com/WannaCryLater/WannaCryLater/main/output/bonsai-growth.gif" width="280" alt="git-bonsai grown from my commit history" />
 
 </td>
 </tr>

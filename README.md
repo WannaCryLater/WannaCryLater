@@ -17,7 +17,7 @@ Building products, solving engineering problems, and making web applications fas
 </td>
 <td width="300" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/WannaCryLater/WannaCryLater/main/output/bonsai-growth.gif" width="280" alt="git-bonsai grown from my commit history" />
+<img src="output/bonsai-growth.gif" width="384" alt="My Git Bonsai" />
 
 </td>
 </tr>

@@ -2,48 +2,32 @@
 
 <table>
 <tr>
-<td valign="top">
-
-👨‍💻 Software Development Engineer @ **Blinkit**
-
-Building products, solving engineering problems, and making web applications faster and more reliable.
-
-- ⚛️ Passionate about frontend engineering and full-stack development
-- 🧠 Interested in scalable systems, clean code, and performance optimization
-- 🔭 Always experimenting with new technologies and better ways to build
-- 💬 React, TypeScript, JavaScript & web engineering
-- ⚡ Tabs over spaces. Always.
-
-</td>
-<td width="300" align="center" valign="middle">
-
-<img src="output/bonsai-growth.gif" width="384" alt="My Git Bonsai" />
-
-</td>
+<td valign="middle"><img src="assets/bio.svg" width="640" alt="Bio" /></td>
+<td width="300" align="center" valign="middle"><img src="https://raw.githubusercontent.com/WannaCryLater/WannaCryLater/main/output/bonsai-growth.gif" width="280" alt="git-bonsai grown from my commit history" /></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="left">
 
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,bootstrap&perline=4" alt="Frontend" />
-
-</td>
-<td width="33%" valign="top">
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,php,python,go,c,cpp,prisma,redux&perline=5" alt="Backend" />
+<img src="assets/skills-frontend.svg" width="100%" alt="frontend" />
+<br />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,bootstrap&perline=4" alt="frontend icons" />
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="left">
 
-**DevOps**
+<img src="assets/skills-backend.svg" width="100%" alt="backend" />
+<br />
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,php,python,go,c,cpp,prisma,redux&perline=4" alt="backend icons" />
 
-<img src="https://skillicons.dev/icons?i=gcp,linux,git,bash&perline=4" alt="DevOps" />
+</td>
+<td width="33%" valign="top" align="left">
+
+<img src="assets/skills-devops.svg" width="100%" alt="devops" />
+<br />
+<img src="https://skillicons.dev/icons?i=gcp,linux,git,bash&perline=4" alt="devops icons" />
 
 </td>
 </tr>

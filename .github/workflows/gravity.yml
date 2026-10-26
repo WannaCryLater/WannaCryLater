@@ -1,4 +1,3 @@
-
 name: gravity
 
 on:
@@ -8,6 +7,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   gravity:
     runs-on: ubuntu-latest
@@ -15,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: flycran/github-gravity@v1
+      - uses: WannaCryLater/github-gravity@main
         with:
           username: beeplovsharma
           text: Beeplov Sharma
@@ -24,6 +26,33 @@ jobs:
           font-size: 64
           background-color: '#0D0D11'
           text-color: '#F3F4F6'
+
+      - name: Reduce SVG height
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path("deploy/gravity.svg")
+          svg = p.read_text()
+
+          # Reduce the displayed canvas height to 75%.
+          m = re.search(r'<svg\b[^>]*>', svg)
+          if not m:
+              raise SystemExit("Could not find SVG root element")
+
+          root = m.group(0)
+          height = re.search(r'\bheight="([\d.]+)(px)?"', root)
+          if height:
+              old = float(height.group(1))
+              new = old * 0.75
+              root = root[:height.start()] + f'height="{new:g}{height.group(2) or ""}"' + root[height.end():]
+              svg = svg[:m.start()] + root + svg[m.end():]
+              p.write_text(svg)
+              print(f"SVG height changed from {old:g} to {new:g}")
+          else:
+              print("No explicit SVG height found; left SVG unchanged")
+          PY
 
       - uses: peaceiris/actions-gh-pages@v4
         with:
